@@ -1,0 +1,42 @@
+name: event_finder
+description: "A Flutter project for event management and user authentication."
+
+# This prevents the package from being accidentally published.
+publish_to: 'none'
+
+# Defines the version and build number for your application.
+version: 1.0.0+1
+
+# Flutter SDK version
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management (Provider for app state management)
+  provider: ^6.1.2
+  
+  # For making network requests (fetching events, etc.)
+  http: ^0.13.3
+
+  # Maps integration
+  flutter_map: ^0.14.0
+  latlong2: ^0.8.1
+
+  # For iOS-style icons
+  cupertino_icons: ^1.0.8
+
+# Development dependencies for testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting tools for code quality
+  flutter_lints: ^4.0.0
+
+# Flutter section
+flutter:
+  uses-material-design: true
